@@ -15,7 +15,7 @@
 
 # readline-web
 
-A nifty little library for reading files line-by-line using ReadableStreams and is compatible in both node.js and the browser. Inspired by this post on MDN.
+A nifty little library for reading files line-by-line using ReadableStreams and is compatible in both node.js and the browser. Inspired by this [post on MDN](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/read#example_2_-_handling_text_line_by_line).
 
 ## Usage
 
