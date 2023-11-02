@@ -1,0 +1,23 @@
+{
+  "name": "readlines-web",
+  "version": "1.0.0",
+  "description": "Use ReadableStreams to read the content of a file line-by-line.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine index.spec.ts",
+    "build": "tsc",
+    "prerelease": "npm run build",
+    "release": "npm publish --access public"
+  },
+  "keywords": [
+    "ReadableStreams",
+    "readlines",
+    "firstline"
+  ],
+  "author": "@bobbyg603",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.1",
+    "jasmine": "^5.1.0"
+  }
+}
